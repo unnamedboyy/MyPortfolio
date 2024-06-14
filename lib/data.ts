@@ -37,27 +37,43 @@ export const links = [
 export const experiencesData = [
   {
     title: "President of Dies Natalis HIMSI & SI UAJY",
-    location: "University of Atma Jaya Yogyakarta",
+    location: "HIMSI - UAJY",
     description:
       "Saya sebagai ketua acara Dies Natalis HIMSI dan SI, bertugas mempersiapkan kegiatan Dies Natalis. Acara diikuti oleh sekitar 100 peserta, dari angkatan 2021 hingga 2023.",
     icon: React.createElement(LuGraduationCap),
     date: "2024",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "Multimedia and Documentation Division of UNISEC",
+    location: "UNISEC - UAJY",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+      "Saya adalah anggota Divisi Multimedia dan Dokumentasi, yang bertugas membuat segala kebutuhan sosial media UNISEC, yakni video promosi dan aftermovie event Victus Campus Heroes.",
+    icon: React.createElement(FaReact),
+    date: "2023 - present",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Event Division Coordinator of T-Arts",
+    location: "HIMSI - UAJY",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
+      "I worked as a event division coordinator. I was responsible for organizing and coordinating events. I was also responsible for managing the event team.",
+    icon: React.createElement(CgWorkAlt),
+    date: "December 2023",
+  },
+  {
+    title: "Event Division Coordinator IWEEK",
+    location: "HIMSI - UAJY",
+    description:
+      "I worked as a event division coordinator. I was responsible for organizing and coordinating events. I was also responsible for managing the event team.",
+    icon: React.createElement(CgWorkAlt),
+    date: "March 2023",
+  },
+  {
+    title: "Member of HIMSI UAJY",
+    location: "HIMSI - UAJY",
+    description:
+      "I was a member of HIMSI UAJY. I was responsible for organizing and coordinating events. I was also responsible for managing the event team.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2022 - 2023",
   },
 ] as const;
 
@@ -95,5 +111,8 @@ export const skillsData = [
   "Git",
   "Tailwind",
   "PostgreSQL",
-  "Python"
+  "Python",
+  "Premiere Pro",
+  "Photoshop",
+  "Figma"
 ] as const;
