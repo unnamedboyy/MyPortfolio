@@ -5,6 +5,7 @@ import { LuGraduationCap } from "react-icons/lu";
 import corpcommentImg from "@/public/corpcomment.png";
 import avasara from "@/public/avasara.png";
 import reusemart from "@/public/reusemart.png";
+import baratie from "@/public/baratie.png";
 
 export const links = [
   {
@@ -114,6 +115,13 @@ export const projectsData = [
       "ReUseMart is a platform that promotes a reuse culture by connecting donors, sellers, and buyers of secondhand goods. I worked as both UI/UX Designer and Fullstack Developer, collaborating with two teammates to build the site using Laravel fullstack.",
     tags: ["Laravel", "MySQL", "Tailwind", "Figma"],
     imageUrl: reusemart,
+  },
+    {
+    title: "BaratieResto",
+    description:
+      "BaratieResto is a restaurant management system built with Laravel fullstack. I developed the platform and designed the UI in collaboration with one teammate to simplify ordering and staff operations.",
+    tags: ["Laravel", "Reavt", "MySQL", "Tailwind", "Figma"],
+    imageUrl: baratie,
   },
 ] as const;
 
