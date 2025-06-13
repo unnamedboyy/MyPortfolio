@@ -18,32 +18,13 @@ export default function About() {
       id="about"
     >
       <SectionHeading>About me</SectionHeading>
-      <p className="mb-3">
-        After graduating with a degree in{" "}
-        <span className="font-medium">Accounting</span>, I decided to pursue my
-        passion for programming. I enrolled in a coding bootcamp and learned{" "}
-        <span className="font-medium">full-stack web development</span>.{" "}
-        <span className="italic">My favorite part of programming</span> is the
-        problem-solving aspect. I <span className="underline">love</span> the
-        feeling of finally figuring out a solution to a problem. My core stack
-        is{" "}
-        <span className="font-medium">
-          React, Next.js, Node.js, and MongoDB
-        </span>
-        . I am also familiar with TypeScript and Prisma. I am always looking to
-        learn new technologies. I am currently looking for a{" "}
-        <span className="font-medium">full-time position</span> as a software
-        developer.
-      </p>
+        <p className="mb-3">
+          I'm an Informatics student at <span className="font-medium">Universitas Atma Jaya Yogyakarta</span> with a strong interest in <span className="font-medium">web development</span> and <span className="font-medium">data analytics</span>. I enjoy turning ideas into real digital solutions, especially when I get to solve problems through code and create meaningful user experiences. Over the past few semesters, I've built several web-based projects while also improving my skills in frontend and backend development.
+        </p>
 
-      <p>
-        <span className="italic">When I'm not coding</span>, I enjoy playing
-        video games, watching movies, and playing with my dog. I also enjoy{" "}
-        <span className="font-medium">learning new things</span>. I am currently
-        learning about{" "}
-        <span className="font-medium">history and philosophy</span>. I'm also
-        learning how to play the guitar.
-      </p>
+        <p>
+          Beyond programming, I’m also passionate about <span className="font-medium">videography</span> and have experience in <span className="font-medium">student organizations</span> that shaped my <span className="font-medium">leadership and teamwork</span> skills. I love learning new tools and exploring creative ways to communicate ideas—whether through code or visuals. Currently, I’m looking for opportunities to grow through <span className="font-medium">internships or collaborative projects</span> in tech.
+        </p>
     </motion.section>
   );
 }

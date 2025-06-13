@@ -10,8 +10,8 @@ import { Toaster } from "react-hot-toast";
 const lato = Lato({weight: ["400", "700"], subsets: ["latin"]});
 
 export const metadata = {
-  title: "Kevin | Portfolio",
-  description: "Andreas Kevin is a ungraduated college student on Atma Jaya University.",
+  title: "Kaisar | Portfolio",
+  description: "Kaisar Simarupang is a ungraduated college student on Atma Jaya University.",
 };
 
 export default function RootLayout({

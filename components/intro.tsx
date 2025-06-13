@@ -63,8 +63,8 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">Hello, I'm Kevin.</span> Imma{" "}
-        <span className="font-bold">ungraduated college student on Atma Jaya University of Yogyakarta</span>.
+        <span className="font-bold">Hello, I'm Kay.</span> Im a{" "}
+        <span className="font-bold">ungraduated college student <br/> on Atma Jaya University of Yogyakarta</span>.
       </motion.h1>
 
       <motion.div
@@ -75,9 +75,18 @@ export default function Intro() {
           delay: 0.1,
         }}
       >
+        <a
+          className="group bg-[#21209C] text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-90 hover:scale-90 hover:bg-[#21209C] active:scale-105 transition"
+          href="/CV.pdf"
+          download
+        >
+          Download CV{" "}
+          <HiDownload className="opacity-60 group-hover:translate-y-1 transition" />
+        </a>
+
         <Link
           href="#contact"
-          className="group bg-[#21209C] text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-90 hover:scale-90 hover:bg-[#21209C] active:scale-105 transition"
+          className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-90 hover:scale-90 active:scale-90 transition cursor-pointer borderBlack dark:bg-white/10"
           onClick={() => {
             setActiveSection("Contact");
             setTimeOfLastClick(Date.now());
@@ -88,17 +97,8 @@ export default function Intro() {
         </Link>
 
         <a
-          className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-90 hover:scale-90 active:scale-90 transition cursor-pointer borderBlack dark:bg-white/10"
-          href="/CV.pdf"
-          download
-        >
-          Download CV{" "}
-          <HiDownload className="opacity-60 group-hover:translate-y-1 transition" />
-        </a>
-
-        <a
           className="bg-white p-4 text-gray-700 hover:text-gray-950 flex items-center gap-2 rounded-full focus:scale-[1.00] hover:scale-[0.90] active:scale-90 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
-          href="https://linkedin.com"
+          href="https://www.linkedin.com/in/kaisar-simatupang-4a73b9280/"
           target="_blank"
         >
           <BsLinkedin />
@@ -106,7 +106,7 @@ export default function Intro() {
 
         <a
           className="bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.00] hover:scale-[0.90] hover:text-gray-950 active:scale-90 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
-          href="https://github.com"
+          href="https://github.com/unnamedboyy"
           target="_blank"
         >
           <FaGithubSquare />
