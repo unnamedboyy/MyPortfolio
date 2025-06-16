@@ -1,7 +1,11 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
+import { RiMicFill } from "react-icons/ri";
+import { FaCamera } from "react-icons/fa";
+import { FaVideo } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
+import { FaCode } from "react-icons/fa6";
 import corpcommentImg from "@/public/corpcomment.png";
 import avasara from "@/public/avasara.png";
 import reusemart from "@/public/reusemart.png";
@@ -40,7 +44,7 @@ export const experiencesData = [
       location: "Universitas Atma Jaya Yogyakarta",
       description:
         "Worked as a Teaching Assistant for Website-based Information Systems, actively supporting students in both conceptual understanding and hands-on development. Provided clear guidance during practical sessions, assisted in developing web-based applications, and supported students in completing assignments and projects related to web development.",
-      icon: React.createElement(LuGraduationCap),
+      icon: React.createElement(FaCode),
       date: "Jan 2025 - Jun 2025",
     },
     {
@@ -48,7 +52,7 @@ export const experiencesData = [
       location: "Universitas Atma Jaya Yogyakarta",
       description:
         "Worked as a Student Staff of the Informatics Department, responsible for promoting the department through various digital platforms including Instagram, TikTok, Website, and YouTube. Managed content strategy and served as a video editor, contributing to the creation and publication of engaging media to reach a broader audience.",
-      icon: React.createElement(LuGraduationCap),
+      icon: React.createElement(FaVideo),
       date: "Sep 2024 - Mar 2025",
     },
     {
@@ -56,7 +60,7 @@ export const experiencesData = [
     location: "Universitas Atma Jaya Yogyakarta",
     description:
       "Worked as a Teaching Assistant for Object-Oriented Programming at UAJY, actively supporting the teaching and learning process. Responsible for providing clear guidance during practical sessions and assisting students in understanding core OOP concepts. Also helped students complete programming assignments and projects, ensuring they could apply theoretical knowledge to real coding tasks.",
-    icon: React.createElement(LuGraduationCap),
+    icon: React.createElement(FaCode),
     date: "Aug 2024 - Dec 2024",
   },
   {
@@ -64,7 +68,7 @@ export const experiencesData = [
     location: "Leaders Community - UAJY",
     description:
       "Served as Head of the Communication and Information Department, leading a team of 9 members to implement effective media and branding strategies aligned with organizational goals. Managed social media content and scheduling, successfully boosting Instagram engagement during orientation week. Collaborated with cross-department teams to promote events and broaden audience reach. Also directed the production of the organization’s official profile video, overseeing a 5-person creative team from concept to final cut.",
-    icon: React.createElement(LuGraduationCap),
+    icon: React.createElement(FaCamera),
     date: "Sep 2023 - Sep 2024",
   },
   {
@@ -72,7 +76,7 @@ export const experiencesData = [
     location: "HIMAFORKA - UAJY",
     description:
       "Contributed to Informatics Festival (I-Fest) #12 organized by HIMAFORKA UAJY, which included competitions and a national seminar on innovation and technology. Designed the event logo and Instagram feed visuals for the Web Development Competition. Also responsible for documenting multiple sub-events and producing the official after movie video, showcasing my skills in visual design, videography, and event media production.",
-    icon: React.createElement(FaReact),
+    icon: React.createElement(FaVideo),
     date: "Dec 2023 - Jun 2024",
   },
   {
@@ -80,7 +84,7 @@ export const experiencesData = [
     location: "KSDG UAJY X PSYMAG USD",
     description:
       "Took part in organizing the Creathink Journalism Workshop #2, a collaborative event between Psymag Sanata Dharma University and KSDG UAJY, focused on Social Media Strategy. Contributed to the event concept development and served as the Master of Ceremony, enhancing my public speaking and event coordination skills..",
-    icon: React.createElement(CgWorkAlt),
+    icon: React.createElement(RiMicFill),
     date: "Feb 2024 - May 2024",
   },
   {
@@ -88,7 +92,7 @@ export const experiencesData = [
     location: "Universitas Atma Jaya Yogyakarta",
     description:
       "Served as a member of the Publication and Documentation Division for PKKMB & UKM-K FAIR UAJY 2023. Created the teaser video and campus introduction video, designed Instagram stories and feed posts, and handled full event documentation. This role sharpened my creative production skills and strengthened my ability to manage visual content for large-scale university events.",
-    icon: React.createElement(CgWorkAlt),
+    icon: React.createElement(FaCamera),
     date: "July 2023 - Sep 2023",
   },
   {
@@ -96,7 +100,7 @@ export const experiencesData = [
     location: "Sparkfest - UAJY",
     description:
       "Contributed to Sparkfest #11, the biggest annual event by SEMA FTI UAJY, through various creative and media roles. Responsible for producing the teaser video, after movie, and event documentation, as well as designing the poster for Refresh, one of Sparkfest's sub-events. This experience enhanced my skills in videography, design, and event media production.",
-    icon: React.createElement(CgWorkAlt),
+    icon: React.createElement(FaCamera),
     date: "Dec 2022 - May 2023",
   },
 ] as const;
