@@ -33,7 +33,7 @@ export default function Intro() {
           >
             <Image
               src={fotodiri}
-              alt="Andreas Kevin"
+              alt="Kaisar Simatupang"
               width="150"
               height="150"
               quality="100"
@@ -80,7 +80,7 @@ export default function Intro() {
           href="/CV.pdf"
           download
         >
-          Download CV{" "}
+          Download Resume{" "}
           <HiDownload className="opacity-60 group-hover:translate-y-1 transition" />
         </a>
 
