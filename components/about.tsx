@@ -19,11 +19,15 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
         <p className="mb-3">
-          I'm an Informatics student at <span className="font-medium">Universitas Atma Jaya Yogyakarta</span> with a strong interest in <span className="font-medium">web development</span> and <span className="font-medium">data analytics</span>. I enjoy turning ideas into real digital solutions, especially when I get to solve problems through code and create meaningful user experiences. Over the past few semesters, I've built several web-based projects while also improving my skills in frontend and backend development.
+          I am an <span className="font-medium">Informatics graduate</span> from <span className="font-medium">Universitas Atma Jaya Yogyakarta</span> with a strong background in <span className="font-medium">software development</span>, <span className="font-medium">web engineering</span>, and <span className="font-medium">data automation</span>. I thrive on building end-to-end digital solutions—from developing scalable web applications using <span className="font-medium">React, Next.js, and Node.js</span> to architecting automated workflows and AI-driven data systems with <span className="font-medium">Python, n8n, and LLM APIs</span>.
+        </p>
+
+        <p className="mb-3">
+          My hands-on experience includes an IT internship at <span className="font-medium">PT Bank Central Asia Tbk (BCA)</span>, where I built automation scripts and data reconciliation systems, as well as serving as an <span className="font-medium">Assistant Lecturer</span> for Object-Oriented Programming and Web-Based Information Systems.
         </p>
 
         <p>
-          Beyond programming, I’m also passionate about <span className="font-medium">videography</span> and have experience in <span className="font-medium">student organizations</span> that shaped my <span className="font-medium">leadership and teamwork</span> skills. I love learning new tools and exploring creative ways to communicate ideas—whether through code or visuals. Currently, I’m looking for opportunities to grow through <span className="font-medium">internships or collaborative projects</span> in tech.
+          Beyond development, I have a strong creative side with extensive experience in <span className="font-medium">videography, visual design, and media strategy</span> from various leadership roles in student organizations. I am actively seeking <span className="font-medium">full-time opportunities or collaborative tech projects</span> where I can contribute and continue to grow.
         </p>
     </motion.section>
   );
