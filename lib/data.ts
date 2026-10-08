@@ -10,6 +10,8 @@ import corpcommentImg from "@/public/corpcomment.png";
 import avasara from "@/public/avasara.png";
 import reusemart from "@/public/reusemart.png";
 import baratie from "@/public/baratie.png";
+import floraless from "@/public/floraless.png";
+import pandanara from "@/public/pandanara.png";
 
 export const links = [
   {
@@ -39,6 +41,14 @@ export const links = [
 ] as const;
 
 export const experiencesData = [
+    {
+      title: "IT Intern",
+      location: "PT Bank Central Asia Tbk",
+      description:
+        "Worked within the Business Technology Division and IT Architecture Bureau. Developed Python data automation scripts, configured automated workflows using n8n, and integrated OpenAI and Gemini APIs to build string matching and data reconciliation systems.",
+      icon: React.createElement(FaCode),
+      date: "Sep 2025 - Sep 2026",
+    },
     {
       title: "Asistant Lecturer of Website-based Information System Batch 2024/2025",
       location: "Universitas Atma Jaya Yogyakarta",
@@ -120,12 +130,26 @@ export const projectsData = [
     tags: ["Laravel", "MySQL", "Tailwind", "Figma"],
     imageUrl: reusemart,
   },
-    {
+  {
     title: "BaratieResto",
     description:
       "BaratieResto is a restaurant management system built with Laravel fullstack. I developed the platform and designed the UI in collaboration with one teammate to simplify ordering and staff operations.",
-    tags: ["Laravel", "Reavt", "MySQL", "Tailwind", "Figma"],
+    tags: ["Laravel", "React", "MySQL", "Tailwind", "Figma"],
     imageUrl: baratie,
+  },
+  {
+    title: "Floraless",
+    description:
+      "Floraless is a web-based event decoration booking platform for a floral store in Yogyakarta. It features a Real-Time Availability Calendar to streamline schedule checks and online reservations for fresh flower decoration packages.",
+    tags: ["Next.js", "React", "Tailwind", "Node.js", "express", "MongoDB", "Figma"],
+    imageUrl: floraless,
+  },
+  {
+    title: "Pandanara",
+    description:
+      "Pandanara is a catalog and ordering web application designed for a local MSME snack and bakery business. It allows customers to browse traditional snack platters, savory treats, and bakery items with a seamless online ordering experience.",
+    tags: ["Next.js", "React", "Tailwind", "Figma"],
+    imageUrl: pandanara,
   },
 ] as const;
 

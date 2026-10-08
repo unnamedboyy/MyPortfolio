@@ -22,7 +22,7 @@ export const sendEmail = async (formData: FormData) => {
   try {
     const data = await resend.emails.send({
       from: "Contact Form <onboarding@resend.dev>", // HARUS ini karena belum verifikasi domain
-      to: "kaisarsimaa22@gmail.com",                 // Email kamu sendiri
+      to: "kaisar.simatupang.id@gmail.com",                 // Email kamu sendiri
       subject: "Message from contact form",
       reply_to: senderEmail,                         // Pengirim form
       react: React.createElement(ContactFormEmail, {
